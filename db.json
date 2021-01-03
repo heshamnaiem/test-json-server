@@ -1,0 +1,99 @@
+{
+    "produit-acces": [
+        {
+            "id": "15bfd7c2-1556-4cbe-abbc-a4427e499f4b",
+            "info": {
+                "version": "1.0",
+                "type": "produit-acces",
+                "subType": "CREATED",
+                "publicationDate": "2020-12-15T11:12:59.454755+01:00",
+                "origin": "NSO"
+            },
+            "routing": [
+                "produit-acces"
+            ],
+            "data": {
+                "pdt_access_id": "0045MCX9",
+                "operation": "CREATED",
+                "update_date": "2020-12-15 11:12:59",
+                "modified_devices": [],
+                "modified_services": [],
+                "modified_lsa_services": []
+            }
+        },
+        {
+            "id": "02f6c515-e5e5-4388-bf51-e4e3ef623ce9",
+            "info": {
+                "version": "1.0",
+                "type": "produit-acces",
+                "subType": "MODIFIED",
+                "publicationDate": "2020-12-15T11:13:00.344094+01:00",
+                "origin": "NSO"
+            },
+            "routing": [
+                "produit-acces"
+            ],
+            "data": {
+                "pdt_access_id": "0045MCX9",
+                "operation": "MODIFIED",
+                "update_date": "2020-12-15 11:13:00",
+                "modified_devices": [
+                    "rfs-node"
+                ],
+                "modified_services": [
+                    "/c-vpls:cfs-vpls{NFREN100 99 004 NSO}",
+                    "/c-vpls:cfs-vpls{NFREN100 24 009 NSO}",
+                    "/c-vpls:cfs-vpls{NFREN100 24 006 NSO}",
+                    "/c-vpls:cfs-vpls{NFREN100 24 004 NSO}",
+                    "/c-acces:cfs-acces{3 473}",
+                    "/c-acces:cfs-acces{3 259}",
+                    "/c-acces:cfs-acces{3 257}",
+                    "/c-acces:cfs-acces{3 127}",
+                    "/c-eas:cfs-eas{CEREN101}",
+                    "/c-raccordement:cfs-raccordement{3}"
+                ],
+                "modified_lsa_services": [
+                    "/ncs:devices/device{rfs-node}/config/r-port:rfs-port{NFREN100 0/0/0}",
+                    "/ncs:devices/device{rfs-node}/config/r-eas:rfs-eas{CEREN101}",
+                    "/ncs:devices/device{rfs-node}/config/r-interface:rfs-interface{NFREN100 0/0/0 127}",
+                    "/ncs:devices/device{rfs-node}/config/r-interface:rfs-interface{NFREN100 0/0/0 257}",
+                    "/ncs:devices/device{rfs-node}/config/r-interface:rfs-interface{NFREN100 0/0/0 259}",
+                    "/ncs:devices/device{rfs-node}/config/r-interface:rfs-interface{NFREN100 0/0/0 473}",
+                    "/ncs:devices/device{rfs-node}/config/r-pwt:rfs-pwt{NFREN100 2410}",
+                    "/ncs:devices/device{rfs-node}/config/r-customer:rfs-customer{NFREN100 24000001}",
+                    "/ncs:devices/device{rfs-node}/config/r-vpls:rfs-vpls{NFREN100 224066604}",
+                    "/ncs:devices/device{rfs-node}/config/r-pwt:rfs-pwt{NFREN100 2410}",
+                    "/ncs:devices/device{rfs-node}/config/r-customer:rfs-customer{NFREN100 24000001}",
+                    "/ncs:devices/device{rfs-node}/config/r-vpls:rfs-vpls{NFREN100 224066606}",
+                    "/ncs:devices/device{rfs-node}/config/r-pwt:rfs-pwt{NFREN100 2410}",
+                    "/ncs:devices/device{rfs-node}/config/r-customer:rfs-customer{NFREN100 24000001}",
+                    "/ncs:devices/device{rfs-node}/config/r-vpls:rfs-vpls{NFREN100 224066609}",
+                    "/ncs:devices/device{rfs-node}/config/r-pwt:rfs-pwt{NFREN100 9901}",
+                    "/ncs:devices/device{rfs-node}/config/r-customer:rfs-customer{NFREN100 99000004}",
+                    "/ncs:devices/device{rfs-node}/config/r-vpls:rfs-vpls{NFREN100 299066604}"
+                ]
+            }
+        },
+        {
+            "id": "fb091db6-643c-4a3e-9d32-819f6d847762",
+            "info": {
+                "version": "1.0",
+                "type": "produit-acces",
+                "subType": "DELETED",
+                "publicationDate": "2020-12-15T11:10:51.863633+01:00",
+                "origin": "NSO"
+            },
+            "routing": [
+                "produit-acces"
+            ],
+            "data": {
+                "pdt_access_id": "0045MCX9",
+                "operation": "DELETED",
+                "update_date": "2020-12-15 11:10:51",
+                "modified_devices": [],
+                "modified_services": [],
+                "modified_lsa_services": []
+            }
+        }
+    ]
+}
